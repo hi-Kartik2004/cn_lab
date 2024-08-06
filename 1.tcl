@@ -76,3 +76,7 @@ count++
 END{
 printf("The Total no of Packets Dropped due to Congestion : %d\n\n", count)
 }
+
+
+// run awk 
+awk -f lab1.awk lab1.tr
